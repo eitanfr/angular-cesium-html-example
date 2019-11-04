@@ -4,7 +4,9 @@ import { Component, Input } from '@angular/core';
   selector: 'map',
   template: `
   <div style="height: 100vh">
-    <ac-map></ac-map>
+    <ac-map>
+      <html-example-layer></html-example-layer>
+    </ac-map>
   </div>`,
 })
 export class MapComponent  {
