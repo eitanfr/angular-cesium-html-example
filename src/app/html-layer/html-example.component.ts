@@ -18,7 +18,7 @@ export class HtmlExampleComponent implements OnInit {
       id: '0',
       show: true,
       name: 'Html 1',
-      position: Cesium.Cartesian3.fromDegrees(-95, 30),
+      position: Cesium.Cartesian3.fromDegrees(-100, 30),
       color: Cesium.Color.RED
     },
   };
@@ -29,7 +29,7 @@ export class HtmlExampleComponent implements OnInit {
       id: '1',
       show: true,
       name: 'Html 2',
-      position: Cesium.Cartesian3.fromDegrees(-95, 45),
+      position: Cesium.Cartesian3.fromDegrees(-100, 45),
       color: Cesium.Color.RED
     }
   };
@@ -49,7 +49,7 @@ export class HtmlExampleComponent implements OnInit {
     }
 
     this.html2.entity.name = 'Great!!!!';
-    this.html2.entity.position = Cesium.Cartesian3.fromDegrees(44, 44);
+    this.html2.entity.position = Cesium.Cartesian3.fromDegrees(-100, 60);
     this.layer.update(this.html2.entity, this.html2.id);
   }
 
