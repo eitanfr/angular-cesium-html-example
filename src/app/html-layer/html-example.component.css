@@ -1,6 +1,6 @@
 .remove-btn {
   position: fixed;
-  bottom: 100px;
+  top: 50px;
   left: 100px;
   z-index: 100;
 }
@@ -8,6 +8,13 @@
 .contianer {
   display: flex;
   font-family: sans-serif;
-  color: orangered;
+  color: orange;
   width: 225px;
+  font-size: 24px;;
+  font-weight: bold;
+
+  
+}
+.contianer button {
+  margin-left: 10px
 }
