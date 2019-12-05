@@ -18,7 +18,7 @@ export class HtmlExampleComponent implements OnInit {
       id: '0',
       show: true,
       name: 'html 1',
-      position: Cesium.Cartesian3.fromDegrees(30, 30),
+      position: Cesium.Cartesian3.fromDegrees(-80, 30),
       color: Cesium.Color.RED
     },
   };
@@ -29,7 +29,7 @@ export class HtmlExampleComponent implements OnInit {
       id: '1',
       show: true,
       name: 'html 2',
-      position: Cesium.Cartesian3.fromDegrees(35, 35),
+      position: Cesium.Cartesian3.fromDegrees(-80, 35),
       color: Cesium.Color.RED
     }
   };

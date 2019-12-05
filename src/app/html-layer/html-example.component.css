@@ -4,3 +4,10 @@
   left: 100px;
   z-index: 100;
 }
+
+.contianer {
+  display: flex;
+  font-family: sans-serif;
+  color: orangered;
+  width: 225px;
+}
